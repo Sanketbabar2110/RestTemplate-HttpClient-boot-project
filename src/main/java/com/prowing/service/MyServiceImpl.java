@@ -15,9 +15,6 @@ import com.prowing.model.Friend;
 public class MyServiceImpl implements MyService {
 
 	@Autowired
-	Environment environment;
-
-	@Autowired
 	RestTemplate restTemplate;
 
 	@Value("${base_uri}")
